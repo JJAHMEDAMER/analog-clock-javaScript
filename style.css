@@ -39,3 +39,63 @@ body{
 .number10{ --rotation_value: 300deg;}
 .number11{ --rotation_value: 330deg;}
 .number12{ --rotation_value: 0deg;}
+
+
+.hand{
+    --rotation_hand: 30deg;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    transform: translate(-50%);
+    transform-origin: bottom;
+    rotate: calc(var(--rotation_hand));
+}
+
+.hour{
+    width: 15px;
+    height: 35%;
+    background-color: black;
+
+}
+
+.min{
+    width: 10px;
+    height: 40%;
+    background-color: blue;
+}
+
+.sec{
+    width: 5px;
+    height: 45%;
+    background-color: red;
+}
+
+.circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+
+}
+
+.hourCircle{
+    width: 20px;
+    height: 20px;
+    background-color: black 
+}
+
+.minCircle{
+    width: 15px;
+    height: 15px;
+    background-color: blue 
+}
+
+.secCircle{
+    width: 10px;
+    height: 10px;
+    background-color: red 
+}
+
