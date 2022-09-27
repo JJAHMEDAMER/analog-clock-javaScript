@@ -1,0 +1,21 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+    font-family: Gotham Rounded, sans-serif;
+}
+
+body{
+    background-color: DarkCyan;
+    color: white;
+}
+
+.clock{
+    width: 400px;
+    height: 400px;
+    background-color: beige;
+    border-radius: 50%;
+    position: relative;
+
+}
+
+
+
