@@ -17,5 +17,25 @@ body{
 
 }
 
+.number{
+    --rotation_value: 0;
+    color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    rotate: var(--rotation_value);
+}
 
-
+.number1{ --rotation_value: 30deg;}
+.number2{ --rotation_value: 60deg;}
+.number3{ --rotation_value: 90deg;}
+.number4{ --rotation_value: 120deg;}
+.number5{ --rotation_value: 150deg;}
+.number6{ --rotation_value: 180deg;}
+.number7{ --rotation_value: 210deg;}
+.number8{ --rotation_value: 240deg;}
+.number9{ --rotation_value: 270deg;}
+.number10{ --rotation_value: 300deg;}
+.number11{ --rotation_value: 330deg;}
+.number12{ --rotation_value: 0deg;}
