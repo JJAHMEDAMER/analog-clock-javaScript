@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
+    
     <title>Document</title>
 </head>
 <body>
@@ -13,11 +13,11 @@
     <div class="clock">
 
 <!-- Clock Hands-->
-        <div class="hand hour"></div>
+        <div class="hand hour" data></div>
         <div class="circle hourCircle"></div>
-        <div class="hand min"></div>
+        <div class="hand min" data-min></div>
         <div class="minCircle circle"></div>
-        <div class="hand sec"></div>
+        <div class="hand sec" data-sec></div>
         <div class="secCircle circle"></div>
 
 <!-- Numbers -->
@@ -38,5 +38,7 @@
         <div class="number number11">11</div>
         <div class="number number12">12</div>
     </div>
+
+    <script src="main.js"></script>
 </body>
 </html>
